@@ -12,7 +12,7 @@ use App\Http\Controllers\PlaceController;
 Route::get('/{city}/places', [PlaceController::class, 'show'])->where('city', '[a-z]+');
 
 use App\Http\Controllers\DescriptionController;
-Route::get('/place/{id}', [DescriptionController::class, 'show'])->where('id', '\d');
+Route::get('/place/{id}', [DescriptionController::class, 'show'])->where('id', '\d+');
 
 use App\Http\Controllers\AdminController;
 Route::match(['get', 'post'], '/admin', [AdminController::class, 'show']);

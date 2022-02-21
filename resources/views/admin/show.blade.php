@@ -1,17 +1,21 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{  }}</title>
-</head>
-<body>
+@extends('layout.admin')
 
+@section('title')
+    {{ $title }}
+@endsection
 
+@section('content')
+    <h3>Добавить:</h3>
+    <ul>
+        <li><a href="http://tourism.site/admin/insert/country">страну</a></li>
+        <li><a href="http://tourism.site/admin/insert/city">город</a></li>
+        <li><a href="http://tourism.site/admin/insert/place">достопримечательность</a></li>
+    </ul>
 
-
-
-</body>
-</html>
+    <h3>Редактировать:</h3>
+    <ul>
+        <li><a href="http://tourism.site/admin/???/country">страны</a></li>
+        <li><a href="http://tourism.site/admin/???/city">города</a></li>
+        <li><a href="http://tourism.site/admin/???/place">достопримечательности</a></li>
+    </ul>
+@endsection

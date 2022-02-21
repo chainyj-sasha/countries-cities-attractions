@@ -12,6 +12,10 @@
 
 @yield('content')
 
+<p>ЗДЕСЬ БУДЕТ ВСЯ ИНФА О ГОРОДАХ СТРАНАХ И Т.Д.</p>
+
+<p><a href="http://tourism.site/admin">главная страница администратора</a></p>
+<p><a href="http://tourism.site/">на главную страницу сайта</a></p>
 
 </body>
 </html>

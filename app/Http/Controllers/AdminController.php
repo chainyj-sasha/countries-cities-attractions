@@ -24,7 +24,7 @@ class AdminController extends Controller
             return redirect('http://tourism.site/admin/insert');
         }
         return view('admin.insertCountry', [
-            'title' => 'Страница администратора'
+            'title' => 'Добавить страну'
         ]);
     }
 
