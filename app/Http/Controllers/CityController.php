@@ -28,4 +28,11 @@ class CityController extends Controller
         $city->country_id = $request->countryId;
         $city->save();
     }
+
+    public function edit(Request $request)
+    {
+        $city = City::find($request->cityId);
+        $city->name = $request->newCityName;
+        $city->save();
+    }
 }

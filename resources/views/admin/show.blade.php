@@ -14,8 +14,8 @@
 
     <h3>Редактировать:</h3>
     <ul>
-        <li><a href="http://tourism.site/admin/???/country">страны</a></li>
-        <li><a href="http://tourism.site/admin/???/city">города</a></li>
-        <li><a href="http://tourism.site/admin/???/place">достопримечательности</a></li>
+        <li><a href="http://tourism.site/admin/edit/country">страны</a></li>
+        <li><a href="http://tourism.site/admin/edit/city">города</a></li>
+        <li><a href="http://tourism.site/admin/edit/place">достопримечательности</a></li>
     </ul>
 @endsection

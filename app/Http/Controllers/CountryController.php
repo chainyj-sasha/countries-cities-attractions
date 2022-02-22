@@ -23,4 +23,11 @@ class CountryController extends Controller
         $country->name = $request->countryName;
         $country->save();
     }
+
+    public function edit(Request $request)
+    {
+        $country = Country::find($request->countryId);
+        $country->name = $request->newName;
+        $country->save();
+    }
 }
