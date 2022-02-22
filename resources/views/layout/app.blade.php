@@ -8,6 +8,7 @@
     <title>@yield('title')</title>
 </head>
 <body>
+<a href="http://tourism.site/admin">Страница администратора</a>
 
 {{--@include('header')--}}
 

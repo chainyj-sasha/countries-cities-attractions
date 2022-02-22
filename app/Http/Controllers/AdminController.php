@@ -106,7 +106,7 @@ class AdminController extends Controller
                          $description = new PlaceController();
                          $description->edit($request, $id);
 
-                         return redirect('http://tourism.site/admin/edit/place/' . $id);
+                        return redirect('http://tourism.site/admin/edit/place/' . $id);
                      }
             } else {
                 $place = null;
